@@ -40,6 +40,11 @@ html {
     min-height: 100vh;
 }
 
+#content {
+    min-width: 100vw;
+    position: relative;
+}
+
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -88,6 +93,15 @@ html {
     height: 4px;
 }
 
+.drop-shadow {
+    box-shadow: 0 5px 600px #000000;
+}
+
+.next {
+    position: absolute;
+    bottom: 0;
+}
+
 a{
     color: white;
     transition: 0.9s;
@@ -96,4 +110,5 @@ a{
 a:hover {
     color: #5689be;
     transition: 0.25s;
+    text-decoration: none;
 }

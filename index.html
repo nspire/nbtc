@@ -20,13 +20,21 @@
     <body>
         <div class="wrapper">
             <!--Sidebar navigation-->
-            <nav id="sidebar" class="stowed sticky-top">
-                <div class="sidebar-header sticky-top pt-4 pb-3 text-center">
-                    <img src="assets/img/nbtc-logo-white.png" style="height: 3rem">
+            <nav id="sidebar" class="fixed-top stowed p-3">
+                <div class="row">
+                    <div class="col-12 text-center mb-3">
+                        <img src="assets/img/nbtc-logo-white.png" style="height: 3rem">
+                    </div>
+                </div>
+                <div id="sidebar-links" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#landing-banner">Home</a>
+                    <a class="list-group-item list-group-item-action" href="#info-banner">What is NBTC?</a>
+                    <a class="list-group-item list-group-item-action" href="#going-banner">Who Goes?</a>
+                    <a class="list-group-item list-group-item-action" href="#sponsors-banner">Past Sponsors</a>
                 </div>
             </nav>
             <!--Everything Else-->
-            <div id="content" style="width: 100vw" data-spy="scroll" data-target="#sidebar">
+            <div id="content" data-spy="scroll" data-target="#sidebar-links">
                 <!--div id="header" class="sticky-top row py-4">
                     <div class="container">
                         <div class="col-12">
@@ -41,7 +49,7 @@
                         </div>
                     </div>
                 </div-->
-                <div id="landing-banner" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1" style="height: 91%">
+                <div id="landing-banner" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1 drop-shadow" style="height: 100%">
                     <div class="container" style="height: 100%">
                         <a href="#" id="sidebarCollapse">
                             <i class="fa fa-bars fa-3x text-white mt-1" aria-hidden="true"></i>
@@ -49,11 +57,11 @@
                         <div class="row" style="height: 80%">
                             <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center" style="height: 100%">
                                 <img class="mb-3" src="assets/img/nbtc-logo-white.png" style="max-width: 75%; max-height: auto">
-                                <p class="p-0">Save 10% when registration opens!</p>
-                                <div class="input-group w-50 mx-auto">
-                                    <input type="email" class="form-control" placeholder="your.email@example.com" aria-label="Email" autofocus>
+                                <p class="p-0">Register for updates and save 10% when registration opens!</p>
+                                <div class="input-group w-50 mx-auto drop-shadow">
+                                    <input type="email" class="form-control border-0" placeholder="your.email@example.com" aria-label="Email" autofocus>
                                     <span class="input-group-btn">
-                                        <button class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</button>
+                                        <a href="" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
                                     </span>
                                 </div>
                             </div>
@@ -70,58 +78,70 @@
                                 </div>
                             </div>
                             <div class="col-sm-9"></div>
-                        </div>
+                        </div>xw
                     </div>
                 </div>
-                <div id="info-banner" class="jumbotron rounded-0 m-0 pb-1">
+                <div id="info-banner" class="jumbotron rounded-0 m-0 pb-1" style="height: 100%">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>What is NBTC?</h1>
-                                <small style="line-height: 2rem">NBTC is Canada's premiere destination for young leaders, CEOs, hackers, thinkers and hustlers. It's a gathering of the industry's innovators and the upcoming generation of founders, entrepreneurs and leaders to share and celebrate the innovation and diversity that makes the technology community thrive.<br>Think AI, Big Data, IoT, SaaS, and Deep Learning. Not familiar, or want to delve deeper? Follow us on <a href="https://www.facebook.com/NspireNetwork">Facebook</a>!</small>
+                                <h1><strong>What is NBTC?</strong></h1>
+                                <p style="line-height: 2rem">NBTC is Canada's premiere destination for young leaders, CEOs, hackers, thinkers and hustlers. It's a gathering of the industry's innovators and the upcoming generation of founders, entrepreneurs and leaders to share and celebrate the innovation and diversity that makes the technology community thrive.<br>Think AI, Big Data, IoT, SaaS, and Deep Learning. Not familiar, or want to delve deeper? Follow us on <a href="https://www.facebook.com/NspireNetwork">Facebook</a>!</p>
                             </div>
                         </div>
                         <div class="row text-center my-5">
                             <div class="col-sm-4">
-                                <i class="fa fa-trophy fa-4x" aria-hidden="true"></i>
+                                <i class="fa fa-trophy fa-5x" aria-hidden="true"></i>
                                 <br>
                                 <strong>$4000+ in Prizes</strong>
                             </div>
                             <div class="col-sm-4">
-                                <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+                                <i class="fa fa-users fa-5x" aria-hidden="true"></i>
                                 <br>
                                 <strong>200+ Delegates</strong>
                             </div>
                             <div class="col-sm-4">
-                                <i class="fa fa-rocket fa-4x" aria-hidden="true"></i>
+                                <i class="fa fa-rocket fa-5x" aria-hidden="true"></i>
                                 <br>
                                 <strong>16 Startups Competing</strong>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="going-banner" class="jumbotron text-white rounded-0 m-0 pb-1" style="height: 30rem">
+                <div id="going-banner" class="jumbotron text-white rounded-0 m-0 pb-1" style="height: 100%">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>Who Goes?</h1>
+                                <h1><strong>Who Goes?</strong></h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="jumbotron rounded-0 p-0 m-0 banner-divider" style="background-color: #9e742a"></div>
-                <div class="jumbotron rounded-0 p-0 m-0 banner-divider" style="background-color: #b3883e"></div>
-                <div class="jumbotron rounded-0 p-0 m-0 banner-divider" style="background-color: #dcaf59"></div>
-                <div class="jumbotron rounded-0 p-0 m-0 banner-divider" style="background-color: #efc272"></div>
-                <div id="sponsors-banner" class="jumbotron rounded-0 m-0 py-3">
+                <div class="w-100 banner-divider" style="background-color: #9e742a"></div>
+                <div class="w-100 banner-divider" style="background-color: #b3883e"></div>
+                <div class="w-100 banner-divider" style="background-color: #dcaf59"></div>
+                <div class="w-100 banner-divider" style="background-color: #efc272"></div>
+                <div id="sponsors-banner" class="jumbotron rounded-0 m-0 py-3" style="height: 100%">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <h3>PAST SPONSORS</h3>
+                                <h3><strong>PAST SPONSORS</strong></h3>
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
+                <div id="footer" class="footer jumbotron rounded-0 m-0 bg-inverse">
+                    <div class="row">
+                        <div class="col-8">
+
+                        </div>
+                        <div class="col-4 text-right">
+                            <a href="http://nspire.org" target="_blank"><img src="assets/img/nspire_logo_blue.svg" style="max-height: 6rem"></a><br>
+                            <small class="text-muted">NBTC is an Nspire Innovation Network Initiative.</small><br>
+                            <small class="text-muted pt-4">&copy; Nspire Innovation Network, 2018.</small>
+                        </div>
+                    </div>
+                </div>             
             </div>
         </div>    
         
