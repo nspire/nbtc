@@ -63,6 +63,7 @@ html {
 #header {
     background: #5689be;    
     min-height: 88px;
+    box-shadow: 0 3px 100px #000;
 }
 
 #landing-banner {
