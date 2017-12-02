@@ -14,144 +14,203 @@
         <link rel="stylesheet" href="css/main.css">
         
         <!--Title and favicon-->
-        <title>NBTC 2018</title>
+        <title>NBTC 18 | Surge</title>
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     </head>
-    <body>
-        <div class="wrapper">
-            <!--Sidebar navigation-->
-            <nav id="sidebar" class="fixed-top stowed p-3">
-                <div class="row">
-                    <div class="col-12 text-center mb-3">
-                        <img src="assets/img/nbtc-logo-white.png" style="height: 3rem">
+    <body data-spy="scroll" data-target="#nav-links">
+        <nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
+            <div class="container text-left">
+                <button class="navbar-toggler navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="http://nspire.org" target="_blank" class="float-right pt-1">
+                    <img src="assets/img/nspire_logo_white.svg" alt="Nspire" aria-label="Nspire.org" style="height: 2.25rem">
+                </a>
+                <div class="navbar-collapse collapse" id="navbarToggler" aria-expanded="false">
+                    <ul class="navbar-nav" id="nav-links">
+                        <li><a class="nav-link" href="#landing-banner">Home</a></li>
+                        <li><a class="nav-link" href="#info-banner">What's NBTC?</a></li>
+                        <li><a class="nav-link" href="#going-banner">Delegates</a></li>
+                        <li><a class="nav-link" href="#speakers-banner">Speakers</a></li>
+                        <li><a class="nav-link" href="#sponsors-banner">Sponsors</a></li>
+                        <li><a class="nav-link" href="/team">Meet the Team</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="landing-banner" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1 drop-shadow" style="min-height: 100%">
+            <div class="container" style="height: 100%">
+                <div class="row" style="height: 80%">
+                    <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center" style="height: 100%">
+                        <img class="mb-3" src="assets/img/nbtc-logo-white.png" alt="NBTC 2018" style="max-width: 75%; max-height: auto">
+                        <p class="p-0">Register for updates and save 10% when registration opens!</p>
+                        <div class="input-group w-50 mx-auto" id="register-wide">
+                            <input type="email" class="form-control border-0" placeholder="you@example.com" aria-label="Email" autofocus>
+                            <span class="input-group-btn">
+                                <a href="" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
+                            </span>
+                        </div>
+                        <div id="register-narrow">
+                            <input type="email" class="form-control border-0 mb-2" placeholder="you@example.com" aria-label="Email" autofocus>
+                            <a href="" class="btn btn-warning" style="width: 190px" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
+                        </div>
                     </div>
                 </div>
-                <div id="sidebar-links" class="list-group">
-                    <a class="list-group-item list-group-item-action" href="#landing-banner">Home</a>
-                    <a class="list-group-item list-group-item-action" href="#info-banner">What is NBTC?</a>
-                    <a class="list-group-item list-group-item-action" href="#going-banner">Who Goes?</a>
-                    <a class="list-group-item list-group-item-action" href="#sponsors-banner">Past Sponsors</a>
-                </div>
-            </nav>
-            <!--Everything Else-->
-            <div id="content" data-spy="scroll" data-target="#sidebar-links">
-                <!--div id="header" class="sticky-top row py-4">
-                    <div class="container">
-                        <div class="col-12">
-                            <div class="float-right">
-                                <div class="input-group pl-2">
-                                    <input type="email" class="form-control" placeholder="your.email@example.com" aria-label="Email">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</button>
-                                    </span>
-                                </div>
+                <div class="row my-3" style="height: 20%">
+                    <div class="col-sm-12 text-sm-left text-center">
+                        <small>Stay tuned for updates</small>                                    
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="https://www.facebook.com/NspireNetwork" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>&nbsp;
+                                <a href="https://twitter.com/NspireNetwork" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>&nbsp;
+                                <a href="https://ca.linkedin.com/company/nspire-innovation-network" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="info-banner" class="jumbotron rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1><strong>What is NBTC?</strong></h1>
+                        <h3>Fuelled by a passion for next-generation technology.</h3>
+                        <p style="line-height: 2rem">For the past 18 years, The National Business and Technology Conference has been Canada’s premiere destination for professionals in the business and technology industry.</p>
+                        <p style="line-height: 2rem">It’s a gathering of young leaders, CEOs, hackers, thinkers and hustlers. A congregation of the industry’s innovators and the upcoming generation of founders, entrepreneurs and leaders to share and celebrate the innovation and diversity that makes the technology community thrive NBTC is hosted and attended by people who not only understand technology they live and breathe it.</p>
+                        <p style="line-height: 2rem">Each year at NBTC, hundreds of students take advantage of the opportunity to network with recruiters, participate in competitions, and learn about the critical technologies that are being used in modern businesses.</p>
+                        <p style="line-height: 2rem">Think IoT, SaaS, big data, deep learning and AI. Not familiar? Come to NBTC to learn more about the technologies companies rely on. Our workshops will provide you the help you need to build a compelling case to impress our sponsors.</p>
+                    </div>
+                </div>
+                <div class="row text-center my-5">
+                    <div class="col-sm-4 pb-3">
+                        <h2><i class="fa fa-trophy fa-5x" aria-hidden="true"></i></h2>
+                        <br>
+                        <h3><strong>$4000+ in Prizes</strong></h3>
+                    </div>
+                    <div class="col-sm-4 pb-3">
+                        <h2><i class="fa fa-users fa-5x" aria-hidden="true"></i></h2>
+                        <br>
+                        <h3><strong>200+ Delegates</strong></h3>
+                    </div>
+                    <div class="col-sm-4 pb-3">
+                        <h2><i class="fa fa-rocket fa-5x" aria-hidden="true"></i></h2>
+                        <br>
+                        <h3><strong>16 Startups Competing</strong></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="going-banner" class="jumbotron text-white rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%; position: relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1><strong>Who Goes?</strong></h1>
+                        <p style="line-height: 2rem">NBTC isn't just for students enrolled in business and STEM programs. Anyone with an interest in the cutting edge of technology, and its intersection with the business world, stands to take advantage of an incredible, unique experience at NBTC. Here's a look at some of delegates from previous years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="speakers-banner" class="jumbotron text-light rounded-0 m-0 drop-shadow" style="position: relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1><strong>Past Speakers</strong></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <dt class="col-lg-4">Harry Rosen</dt> <dd class="col-lg-8">Founder of Harry Rosen</dd>
+                            <dt class="col-lg-4">Isadore Sharp</dt> <dd class="col-lg-8">Founder & Chairman of Four Seasons</dd>
+                            <dt class="col-lg-4">Reza Satchu</dt> <dd class="col-lg-8">Co-Founder, Managing Partner of Alignvest Management Corporation and Founding Chairman & Co-Chair of The Next 36</dd>
+                            <dt class="col-lg-4">Ray Cao</dt> <dd class="col-lg-8">CEO of Loose Button</dd>
+                            <dt class="col-lg-4">Sean Wise</dt> <dd class="col-lg-8">Professor of Entrepreneurship at Ted Rogers School of Business at Ryerson </dd>
+                            <dt class="col-lg-4">Andrew D’Souza</dt> <dd class="col-lg-8">President at Bionym</dd>
+                            <dt class="col-lg-4">Daniel Debow</dt> <dd class="col-lg-8">SVP at Salesforce and Co-Founder of Rypple</dd>
+                            <dt class="col-lg-4">Bruce Ross</dt> <dd class="col-lg-8">President of IBM Canada</dd>
+                            <dt class="col-lg-4">Scott Miller</dt> <dd class="col-lg-8">CEO of Vision Critical</dd>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <dt class="col-lg-4">Frank O’Dea</dt> <dd class="col-lg-8">Founder of Second Cup</dd>
+                            <dt class="col-lg-4">Eric Gales</dt> <dd class="col-lg-8">President of Microsoft Canada</dd>
+                            <dt class="col-lg-4">Jordan Banks</dt> <dd class="col-lg-8">Managing Director of Facebook Canada</dd>
+                            <dt class="col-lg-4">Michael Serbinis</dt> <dd class="col-lg-8">CEO of Kobo</dd>
+                            <dt class="col-lg-4">Peter Aceto</dt> <dd class="col-lg-8">President & CEO of ING Direct Canada</dd>
+                            <dt class="col-lg-4">Harley Finkelsten</dt> <dd class="col-lg-8">CPO of Shopify</dd>
+                            <dt class="col-lg-4">Idris Mootee</dt> <dd class="col-lg-8">President & CEO of Idea Couture</dd>
+                            <dt class="col-lg-4">John Kelleher</dt> <dd class="col-lg-8">President & CEO of RHB Group LP</dd>
+                            <dt class="col-lg-4">Anthony Lacavera</dt> <dd class="col-lg-8">CEO of Wind Mobile</dd>
+                            <dt class="col-lg-4">Irene Zaguskin</dt> <dd class="col-lg-8">CIO of Enercare</dd>
+                            <dt class="col-lg-4">Michael Messnier</dt> <dd class="col-lg-8">CTO of Sanofi Pasteur</dd>                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--2017 Speaker Highlights as in NBTC '17 Website-->
+                <!--div class="row text-center">
+                    <div class="col-md-4 my-2">
+                        <img src="assets/img/scott_miller.jpg" style="border-radius: 50%; width: 80%; max-height: auto">
+                        <h3 class="mt-3">Scott Miller</h3>
+                        <p class="text-justify">Scott Miller is the CEO of Vision Critical, which provides a cloud-based customer intelligence platform that allows companies to build engaged, secure communities of customers. Scott focuses on developing and leading the execution of Vision Critical’s strategy, and driving innovation and growth across all markets. His leadership successes can be attributed to alignment of the complete organization around a common vision, clarity and passion in communication and empowering others to contribute at their absolute best.</p>
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <img src="assets/img/irene_zaguskin.jpg" style="border-radius: 50%; width: 80%; max-height: auto">                            
+                        <h3 class="mt-3">Irene Zaguskin</h3>
+                        <p class="text-justify">Irene Zaguskin is the Chief Information Officer of Enercare, one of North America’s largest home and commercial services and energy solutions companies. Irene has versatile experience in a number of industries including Retail, Telecom, Energy and Utility Sectors. Her core passion is driving change through cultural transformation, innovation and technology. Irene’s recipe for success has been transforming organizations to form high performing teams that are customer centric.</p>
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <img src="assets/img/michael_messnier.jpg" style="border-radius: 50%; width: 80%; max-height: auto">                            
+                        <h3 class="mt-3">Michael Messnier</h3>
+                        <p class="text-justify">Michael is CTO of the Medical Device Development group (MED) at Sanofi, working on digital drug delivery systems as well as leveraging that data and data from other devices to deliver services around the drugs that accomplish better patient compliance and improved outcomes (“beyond the drug”). He is an entrepreneur “by DNA” and passionate about leveraging technologies to bring new and innovative solutions to solve our healthcare challenges.</p>
                     </div>
                 </div-->
-                <div id="landing-banner" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1 drop-shadow" style="height: 100%">
-                    <div class="container" style="height: 100%">
-                        <a href="#" id="sidebarCollapse">
-                            <i class="fa fa-bars fa-3x text-white mt-1" aria-hidden="true"></i>
-                        </a>
-                        <div class="row" style="height: 80%">
-                            <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center" style="height: 100%">
-                                <img class="mb-3" src="assets/img/nbtc-logo-white.png" style="max-width: 75%; max-height: auto">
-                                <p class="p-0">Register for updates and save 10% when registration opens!</p>
-                                <div class="input-group w-50 mx-auto drop-shadow">
-                                    <input type="email" class="form-control border-0" placeholder="your.email@example.com" aria-label="Email" autofocus>
-                                    <span class="input-group-btn">
-                                        <a href="" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-3" style="height: 20%">
-                            <div class="col-sm-3">
-                                <small>Stay tuned for updates</small>                                    
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="https://www.facebook.com/NspireNetwork" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>&nbsp;
-                                        <a href="https://twitter.com/NspireNetwork" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>&nbsp;
-                                        <a href="https://ca.linkedin.com/company/nspire-innovation-network" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-9"></div>
-                        </div>xw
-                    </div>
-                </div>
-                <div id="info-banner" class="jumbotron rounded-0 m-0 pb-1" style="height: 100%">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1><strong>What is NBTC?</strong></h1>
-                                <p style="line-height: 2rem">NBTC is Canada's premiere destination for young leaders, CEOs, hackers, thinkers and hustlers. It's a gathering of the industry's innovators and the upcoming generation of founders, entrepreneurs and leaders to share and celebrate the innovation and diversity that makes the technology community thrive.<br>Think AI, Big Data, IoT, SaaS, and Deep Learning. Not familiar, or want to delve deeper? Follow us on <a href="https://www.facebook.com/NspireNetwork">Facebook</a>!</p>
-                            </div>
-                        </div>
-                        <div class="row text-center my-5">
-                            <div class="col-sm-4">
-                                <i class="fa fa-trophy fa-5x" aria-hidden="true"></i>
-                                <br>
-                                <strong>$4000+ in Prizes</strong>
-                            </div>
-                            <div class="col-sm-4">
-                                <i class="fa fa-users fa-5x" aria-hidden="true"></i>
-                                <br>
-                                <strong>200+ Delegates</strong>
-                            </div>
-                            <div class="col-sm-4">
-                                <i class="fa fa-rocket fa-5x" aria-hidden="true"></i>
-                                <br>
-                                <strong>16 Startups Competing</strong>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="going-banner" class="jumbotron text-white rounded-0 m-0 pb-1" style="height: 100%">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1><strong>Who Goes?</strong></h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-100 banner-divider" style="background-color: #9e742a"></div>
-                <div class="w-100 banner-divider" style="background-color: #b3883e"></div>
-                <div class="w-100 banner-divider" style="background-color: #dcaf59"></div>
-                <div class="w-100 banner-divider" style="background-color: #efc272"></div>
-                <div id="sponsors-banner" class="jumbotron rounded-0 m-0 py-3" style="height: 100%">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <h3><strong>PAST SPONSORS</strong></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="footer" class="footer jumbotron rounded-0 m-0 bg-inverse">
-                    <div class="row">
-                        <div class="col-8">
-
-                        </div>
-                        <div class="col-4 text-right">
-                            <a href="http://nspire.org" target="_blank"><img src="assets/img/nspire_logo_blue.svg" style="max-height: 6rem"></a><br>
-                            <small class="text-muted">NBTC is an Nspire Innovation Network Initiative.</small><br>
-                            <small class="text-muted pt-4">&copy; Nspire Innovation Network, 2018.</small>
-                        </div>
-                    </div>
-                </div>             
             </div>
-        </div>    
-        
+            <div id="sponsors-banner" class="row w-100" style="height: 60px; position: absolute; bottom: 0; background: none"></div>            
+        </div>
+        <div class="w-100 banner-divider" style="background-color: #9e742a"></div>
+        <div class="w-100 banner-divider" style="background-color: #b3883e"></div>
+        <div class="w-100 banner-divider" style="background-color: #dcaf59"></div>
+        <div class="w-100 banner-divider" style="background-color: #efc272"></div>
+        <div id="sponsors-banner" class="jumbotron rounded-0 m-0 py-3" style="min-height: 100%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-faded">
+                        <h1><strong>Past Sponsors</strong></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer jumbotron rounded-0 m-0 bg-inverse drop-shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 d-flex flex-column justify-content-center text-white text-sm-left text-center">
+                        <h4>Connect With Us</h4>
+                        <a href="https://www.facebook.com/NspireNetwork" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+                        <a href="https://twitter.com/NspireNetwork" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                        <a href="https://ca.linkedin.com/company/nspire-innovation-network" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
+                        <a href="http://nspire.org" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> nspire.org</a>                                
+                    </div>
+                    <div class="col-sm-6 text-sm-right text-center">
+                        <a href="http://nspire.org" target="_blank"><img src="assets/img/nspire_logo_blue.svg" alt="Nspire" style="max-height: 6rem"></a><br>
+                        <small class="text-muted">NBTC is an Nspire Initiative.</small><br>
+                        <small class="text-muted pt-4">&copy; Nspire Innovation Network 2018.</small>
+                    </div>
+                </div>
+            </div>
+        </div>                     
 
         <!--JS Functionality for Bootstrap/jQuery-->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         
         <!--Page Scripts-->
+        <script src="js/smooth-scroll.min.js"></script>        
         <script src="js/index.js"></script>
     </body>
 </html>
