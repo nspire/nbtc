@@ -18,27 +18,27 @@
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     </head>
     <body data-spy="scroll" data-target="#nav-links">
-        <nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse">
-            <div class="container text-left">
-                <button class="navbar-toggler navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="http://nspire.org" target="_blank" class="float-right pt-1">
-                    <img src="assets/img/nspire_logo_white.svg" alt="Nspire" aria-label="Nspire.org" style="height: 2.25rem">
+                <a href="index.html" class="navbar-brand pt-1 pb-0 float-right">
+                    <img src="assets/img/nbtc-logo-white.png" alt="Nspire" aria-label="Nspire.org" style="height: 2.25rem">
                 </a>
-                <div class="navbar-collapse collapse" id="navbarToggler" aria-expanded="false">
+                <div class="collapse navbar-collapse w-100 flex-md-row-reverse" id="navbarContent" aria-expanded="false">
                     <ul class="navbar-nav" id="nav-links">
-                        <li><a class="nav-link" href="#landing-banner">Home</a></li>
-                        <li><a class="nav-link" href="#info-banner">What's NBTC?</a></li>
-                        <li><a class="nav-link" href="#going-banner">Delegates</a></li>
-                        <li><a class="nav-link" href="#speakers-banner">Speakers</a></li>
-                        <li><a class="nav-link" href="#sponsors-banner">Sponsors</a></li>
-                        <li><a class="nav-link" href="/team">Meet the Team</a></li>                        
+                        <li><a class="nav-link" href="#landing">Info</a></li>                        
+                        <li><a class="nav-link" href="#about">What's NBTC?</a></li>
+                        <li><a class="nav-link" href="#delegates">Delegates</a></li>
+                        <li><a class="nav-link" href="#speakers">Speakers</a></li>
+                        <li><a class="nav-link" href="#sponsors">Sponsors</a></li>
+                        <li><a class="nav-link" href="team.html">Meet the Team</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div id="landing-banner" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1 drop-shadow" style="min-height: 100%">
+        <div id="landing" class="jumbotron rounded-0 text-white m-0 pt-3 pb-1 drop-shadow" style="min-height: 100%">
             <div class="container" style="height: 100%">
                 <div class="row" style="height: 80%">
                     <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center" style="height: 100%">
@@ -47,18 +47,18 @@
                         <div class="input-group w-50 mx-auto" id="register-wide">
                             <input type="email" class="form-control border-0" placeholder="you@example.com" aria-label="Email" autofocus>
                             <span class="input-group-btn">
-                                <a href="" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
+                                <a href="#" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
                             </span>
                         </div>
                         <div id="register-narrow">
-                            <input type="email" class="form-control border-0 mb-2" placeholder="you@example.com" aria-label="Email" autofocus>
+                            <input type="email" id="email-entry" class="form-control border-0 mb-2" placeholder="you@example.com" aria-label="Email" autofocus>
                             <a href="" class="btn btn-warning" style="width: 190px" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
                         </div>
                     </div>
                 </div>
                 <div class="row my-3" style="height: 20%">
                     <div class="col-sm-12 text-sm-left text-center">
-                        <small>Stay tuned for updates</small>                                    
+                        <small>stay tuned for updates</small>                                    
                         <div class="row">
                             <div class="col-12">
                                 <a href="https://www.facebook.com/NspireNetwork" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>&nbsp;
@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div id="info-banner" class="jumbotron rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%">
+        <div id="about" class="jumbotron rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -101,17 +101,17 @@
                 </div>
             </div>
         </div>
-        <div id="going-banner" class="jumbotron text-white rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%; position: relative">
+        <div id="delegates" class="jumbotron text-light rounded-0 m-0 pb-1 drop-shadow" style="min-height: 100%; position: relative">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <h1><strong>Who Goes?</strong></h1>
-                        <p style="line-height: 2rem">NBTC isn't just for students enrolled in business and STEM programs. Anyone with an interest in the cutting edge of technology, and its intersection with the business world, stands to take advantage of an incredible, unique experience at NBTC. Here's a look at some of delegates from previous years.</p>
+                        <p style="line-height: 2rem">NBTC isn't just for students enrolled in business and STEM programs. Anyone with an interest in the cutting edge of technology, and its intersection with the business world, stands to take advantage of an incredible, unique experience at NBTC. Here's a look at some of our delegates from previous years.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="speakers-banner" class="jumbotron text-light rounded-0 m-0 drop-shadow" style="position: relative">
+        <div id="speakers" class="jumbotron text-light rounded-0 m-0 drop-shadow" style="position: relative">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -169,13 +169,13 @@
                     </div>
                 </div-->
             </div>
-            <div id="sponsors-banner" class="row w-100" style="height: 60px; position: absolute; bottom: 0; background: none"></div>            
+            <div id="sponsors" class="row w-100" style="height: 56px; position: absolute; bottom: 0; background: none"></div>            
         </div>
         <div class="w-100 banner-divider" style="background-color: #9e742a"></div>
         <div class="w-100 banner-divider" style="background-color: #b3883e"></div>
         <div class="w-100 banner-divider" style="background-color: #dcaf59"></div>
         <div class="w-100 banner-divider" style="background-color: #efc272"></div>
-        <div id="sponsors-banner" class="jumbotron rounded-0 m-0 py-3" style="min-height: 100%">
+        <div id="sponsors" class="jumbotron rounded-0 m-0 py-3" style="min-height: 100%">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-faded">
@@ -197,6 +197,7 @@
                     <div class="col-sm-6 text-sm-right text-center">
                         <a href="http://nspire.org" target="_blank"><img src="assets/img/nspire_logo_blue.svg" alt="Nspire" style="max-height: 6rem"></a><br>
                         <small class="text-muted">NBTC is an Nspire Initiative.</small><br>
+                        <small class="text-muted">Nspire Innovation Network is a registered non-profit.</small><br>                        
                         <small class="text-muted pt-4">&copy; Nspire Innovation Network 2018.</small>
                     </div>
                 </div>

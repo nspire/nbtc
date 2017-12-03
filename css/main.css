@@ -16,10 +16,12 @@
 
 html {
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 @include media-breakpoint-up(sm) {
@@ -53,6 +55,8 @@ a:hover {
 
 nav {
     background-color: rgba(40, 60, 88, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 @media (max-width: 575px) {
@@ -61,11 +65,11 @@ nav {
     }
 
     .jumbotron {
-        margin-top: 52px;
+        padding-top: 66px;
     }
  }
 
-#landing-banner {
+#landing {
     background-image: url("../assets/img/landing-banner.png");
 }
 
@@ -84,22 +88,22 @@ nav {
     }
 }
 
-#info-banner {
+#about {
     background-color: #c0dfff;
     color: black;
 }
 
-#going-banner {
+#delegates {
     background-color: #606f7f;
 }
 
-#sponsors-banner {
-    background-color: #ffcb73;
-    color: #9e742a;
+#speakers {
+    background-image: url("../assets/img/speakers-banner.png");
 }
 
-#speakers-banner {
-    background-image: url("../assets/img/speakers-banner.png");
+#sponsors {
+    background-color: #ffcb73;
+    color: #9e742a;
 }
 
 .banner-divider {
@@ -112,4 +116,12 @@ nav {
 
 .text-light {
     color: #ddd;
+}
+
+.card {
+    min-height: 349px;
+}
+
+.card img.rounded {
+    border-radius: 50%
 }
