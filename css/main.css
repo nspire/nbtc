@@ -106,6 +106,18 @@ nav {
     color: #9e742a;
 }
 
+#team {
+    background-color: white;
+}
+
+.carousel-indicators li {
+    background-color: #c0dfff;
+}
+
+.carousel-indicators li.active {
+    background-color: #606f7f;
+}
+
 .banner-divider {
     height: 4px;
 }
