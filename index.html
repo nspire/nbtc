@@ -44,16 +44,22 @@
                     <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center" style="height: 100%">
                         <img class="mb-3" src="assets/img/nbtc-logo-white.png" alt="NBTC 2018" style="max-width: 75%; max-height: auto">
                         <p class="p-0">Register for updates and save 10% when registration opens!</p>
-                        <div class="input-group w-50 mx-auto" id="register-wide">
-                            <input type="email" class="form-control border-0" placeholder="you@example.com" aria-label="Email" autofocus>
+                        <form class="input-group w-50 mx-auto register-wide" action="https://nspire.us11.list-manage.com/subscribe/post?u=e334d6120ac07b57acf657b8e&amp;id=4c281bcad0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                            <input type="email" class="form-control border-0 required email" placeholder="you@example.com" value="" name="EMAIL" id="mce-EMAIL" aria-label="Email" autofocus>
                             <span class="input-group-btn">
-                                <a href="#" class="btn btn-warning" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
+                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning" aria-label="Subscribe" style="border-radius: 0 4px 4px 0"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</button>
                             </span>
-                        </div>
-                        <div id="register-narrow">
-                            <input type="email" id="email-entry" class="form-control border-0 mb-2" placeholder="you@example.com" aria-label="Email" autofocus>
-                            <a href="" class="btn btn-warning" style="width: 190px" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</a>
-                        </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e334d6120ac07b57acf657b8e_4c281bcad0" tabindex="-1" value="">
+                            </div>
+                        </form>
+                        <form class="register-narrow" action="https://nspire.us11.list-manage.com/subscribe/post?u=e334d6120ac07b57acf657b8e&amp;id=4c281bcad0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                            <input type="email" class="form-control border-0 mb-2 required email" placeholder="you@example.com" value="" name="EMAIL" id="mce-EMAIL" aria-label="Email" autofocus>
+                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning" style="width: 190px" aria-label="Subscribe"><i class="fa fa-rocket" aria-hidden="true"></i> Subscribe!</button>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e334d6120ac07b57acf657b8e_4c281bcad0" tabindex="-1" value="">
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="row my-3" style="height: 20%">
@@ -220,10 +226,10 @@
                                     <div class="col-12 col-sm-6 col-lg-3">
                                         <div class="card mb-3 border-0">
                                             <div class="card-body p-3">
-                                                <img src="assets/img/team/jotham.jpg" alt="Jotham Chow" style="width: 100%">
-                                                <h5 class="card-title pt-3">Jotham Chow</h5>
+                                                <img src="assets/img/team/aaron.jpg" alt="Aaron Shafton" style="width: 100%">
+                                                <h5 class="card-title pt-3">Aaron Shafton</h5>
                                                 <h6 class="text-muted card-subtitle">Strategic Advisor</h6>
-                                                <p class="card-text"><small>University of Waterloo</small></p>
+                                                <p class="card-text"><small>University of Toronto</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -252,10 +258,10 @@
                                     <div class="col-12 col-sm-6 col-lg-3">
                                         <div class="card mb-3 border-0">
                                             <div class="card-body p-3">
-                                                <img src="assets/img/team/aaron.jpg" alt="Aaron Shafton" style="width: 100%">
-                                                <h5 class="card-title pt-3">Aaron Shafton</h5>
+                                                <img src="assets/img/team/jotham.jpg" alt="Jotham Chow" style="width: 100%">
+                                                <h5 class="card-title pt-3">Jotham Chow</h5>
                                                 <h6 class="text-muted card-subtitle">Content Specialist</h6>
-                                                <p class="card-text"><small>University of Toronto</small></p>
+                                                <p class="card-text"><small>University of Waterloo</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -378,6 +384,10 @@
         src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <!--MailChimp Scripts-->
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
         <!--Page Scripts-->
         <script src="js/smooth-scroll.min.js"></script>        

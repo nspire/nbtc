@@ -5,12 +5,12 @@ $(document).ready(function () {
     // Bootstrap scrollspy for nav link highlighting
     $('body').scrollspy({ target: '#nav-links' });
 
-    // Collapse navbar on anchor selection
+    // Collapse navbar on anchor select
     $('.nav-link').click(function() {
-        $('.navbar-collapse').collapse("hide");
+        $('.navbar-collapse').collapse('hide');
     });
 
     $('.jumbotron').click(function() {
-        $('.navbar-collapse').collapse("hide");
+        $('.navbar-collapse').collapse('hide');
     });
 });

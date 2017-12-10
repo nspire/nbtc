@@ -73,17 +73,17 @@ nav {
     background-image: url("../assets/img/landing-banner.png");
 }
 
-#register-narrow {
+.register-narrow {
     visibility: hidden;
     margin-top: -2.25rem;
 }
 
 @media (max-width: 768px) {
-    #register-wide {
+    .register-wide {
         visibility: hidden;
     }
 
-    #register-narrow {
+    .register-narrow {
         visibility: visible;
     }
 }
