@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     // Initialise SmoothScroll instance (courtesy of Chris Ferdinandi gh: @cferdinandi)
     var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -13,4 +14,19 @@ $(document).ready(function () {
     $('.jumbotron').click(function() {
         $('.navbar-collapse').collapse('hide');
     });
+
+
 });
+
+
+(function($) {
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 600) {
+                $('#nav').fadeIn(500);
+            } else {
+                $('#nav').fadeOut(500);
+            }
+        });
+    });
+})(jQuery);
