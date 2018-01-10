@@ -1,11 +1,11 @@
 @font-face {
-    font-family: AvenirBlack;
+    font-family: 'AvenirBlack';
     font-weight: bold;
     src: url("../assets/fonts/AvenirLTStd-Black.otf") format("opentype");
 }
 
 @font-face {
-    font-family: AvenirBook;
+    font-family: 'AvenirBook';
     src: url("../assets/fonts/AvenirLTStd-Book.otf") format("opentype");
 }
 
@@ -22,6 +22,8 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
+    font-family: 'AvenirBook';
+
 }
 
 @include media-breakpoint-up(sm) {
@@ -54,7 +56,7 @@ a:hover {
 }
 
 nav {
-    background-color: rgba(40, 60, 88, 0.8);
+    background-color: rgba(40, 60, 88, 0.9);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -73,6 +75,7 @@ nav {
 
 #landing {
     background-image: url("../assets/img/landing-banner-2.png");
+    height: 96%;
 }
 
 .register-narrow {
@@ -156,4 +159,15 @@ nav {
   .main-logo{
     width: 50%;
   }
+}
+
+
+h1{
+  font-family: 'AvenirBlack';
+}
+
+@media (min-width: 992px){
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
