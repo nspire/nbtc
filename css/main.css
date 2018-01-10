@@ -59,6 +59,8 @@ nav {
     -webkit-backdrop-filter: blur(10px);
 }
 
+
+
 @media (max-width: 575px) {
     .container {
        width: 100%;
@@ -70,7 +72,7 @@ nav {
  }
 
 #landing {
-    background-image: url("../assets/img/landing-banner.png");
+    background-image: url("../assets/img/landing-banner-2.png");
 }
 
 .register-narrow {
@@ -89,7 +91,7 @@ nav {
 }
 
 #about {
-    background-color: #c0dfff;
+    background-color: #C5DEFC;
     color: black;
 }
 
@@ -136,4 +138,22 @@ nav {
 
 .carousel img {
     border-radius: 50%
+}
+
+/*NEW CSS */
+.main-logo{
+  padding: 50px 0;
+  width: 90%;
+}
+
+
+#nav {
+  display: none;
+}
+
+
+@media (min-width: 992px) {
+  .main-logo{
+    width: 50%;
+  }
 }
