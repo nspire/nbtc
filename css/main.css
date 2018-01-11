@@ -118,7 +118,7 @@ nav {
 .btn-proceed {
     transition: 0.8s;
     border-radius: 30px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .btn-proceed:hover {
