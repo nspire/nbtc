@@ -121,10 +121,12 @@ nav {
     padding: 0.5rem;
 }
 
-.btn-proceed:hover {
-    background-color: #5689be;
-    color: white;
-    transition: 0.4s;
+@media (min-width: 576px) {
+    .btn-proceed:hover {
+        background-color: #5689be;
+        color: white;
+        transition: 0.4s;
+    }
 }
 
 .carousel-indicators li {
