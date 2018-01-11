@@ -76,8 +76,6 @@ nav {
 #landing {
     background-image: url("../assets/img/landing-banner-2.png");
     height: 96%;
-    z-index: 1000;
-
 }
 
 .register-narrow {
@@ -98,12 +96,10 @@ nav {
 #about {
     background-color: #C5DEFC;
     color: black;
-    z-index: 0;
 }
 
-#tickets {
+#who {
     background-color: #606f7f;
-    color: white;
 }
 
 #speakers {
@@ -111,14 +107,8 @@ nav {
 }
 
 #sponsors {
-  background-color: white;
-}
-
-#who{
-  background-color: #ffcb73;
-  color: #9e742a;
-
-
+    background-color: #ffcb73;
+    color: #9e742a;
 }
 
 #team {
@@ -194,8 +184,4 @@ h1{
 .navbar-toggleable-md .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
-}
-
-.social-icons i{
-  padding-right:5px;
 }
