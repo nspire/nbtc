@@ -187,6 +187,9 @@ h1{
   margin-bottom: 10px;
 }
 
+.sky-blue {
+    color: #5689be;
+}
 
 #btn-proceed {
     transition: 0.4s;
