@@ -61,8 +61,6 @@ nav {
     -webkit-backdrop-filter: blur(10px);
 }
 
-
-
 @media (max-width: 575px) {
     .container {
        width: 100%;
@@ -77,7 +75,6 @@ nav {
     background-image: url("../assets/img/landing-banner-2.png");
     height: 100%;
     z-index: 1000;
-
 }
 
 .register-narrow {
@@ -121,11 +118,6 @@ nav {
 
 #team {
     background-color: white;
-}
-
-#where {
-    color: white;
-    /* background-image: url("../assets/img/subway-banner.jpg"); */
 }
 
 .carousel-indicators li {
