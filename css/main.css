@@ -111,18 +111,21 @@ nav {
 }
 
 #sponsors {
-  background-color: white;
+    background-color: white;
 }
 
 #who{
-  background-color: #ffcb73;
-  color: #9e742a;
-
-
+    background-color: #ffcb73;
+    color: #9e742a;
 }
 
 #team {
     background-color: white;
+}
+
+#where {
+    color: white;
+    /* background-image: url("../assets/img/subway-banner.jpg"); */
 }
 
 .carousel-indicators li {
