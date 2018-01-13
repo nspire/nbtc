@@ -11,6 +11,6 @@ let countDown = setInterval(() => {
     document.getElementById("countdown").innerHTML = d + " days, " + h + "h, "+ m + "m, " + s + "s";
     if (dt < 0) {
         clearInterval(countDown);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "";
     }
 }, 1000)
