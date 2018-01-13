@@ -8,7 +8,7 @@ let countDown = setInterval(() => {
         m = Math.floor((dt % (1000 * 60 * 60)) / (1000 * 60)),
         s = Math.floor((dt % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown").innerHTML = d + " days, " + h + "h "+ m + "m " + s + "s";
+    document.getElementById("countdown").innerHTML = d + " days, " + (h >= 10 ? h : ("0" + h))  + "h " + (m >= 10 ? m : ("0" + m)) + "m " + (s >= 10 ? s : ("0" + s)) + "s";
     if (dt < 0) {
         clearInterval(countDown);
         document.getElementById("countdown").innerHTML = "";

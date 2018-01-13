@@ -19,13 +19,6 @@ html {
     overflow-x: hidden;
 }
 
-body {
-    position: relative;
-    overflow-x: hidden;
-    font-family: 'AvenirBook';
-
-}
-
 @include media-breakpoint-up(sm) {
     html {
         font-size: 1.2rem;
@@ -44,7 +37,17 @@ body {
     }
 }
 
-a{
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'AvenirBook';
+}
+
+h1, h2 {
+    font-family: 'AvenirBlack';
+}
+
+a {
     color: white;
     transition: 0.9s;
 }
@@ -59,65 +62,6 @@ nav {
     background-color: rgba(40, 60, 88, 0.9);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-}
-
-@media (max-width: 575px) {
-    .container {
-       width: 100%;
-    }
-
-    .jumbotron {
-        padding-top: 66px;
-    }
- }
-
-#landing {
-    background-image: url("../assets/img/landing-banner-2.png");
-    height: 100%;
-    z-index: 1000;
-}
-
-.register-narrow {
-    visibility: hidden;
-    margin-top: -2.25rem;
-}
-
-@media (max-width: 768px) {
-    .register-wide {
-        visibility: hidden;
-    }
-
-    .register-narrow {
-        visibility: visible;
-    }
-}
-
-#about {
-    background-color: #C5DEFC;
-    color: black;
-    z-index: 0;
-}
-
-#tickets {
-    background-color: #606f7f;
-    color: white;
-}
-
-#speakers {
-    background-image: url("../assets/img/speakers-banner.png");
-}
-
-#sponsors {
-    background-color: white;
-}
-
-#who{
-    background-color: #ffcb73;
-    color: #9e742a;
-}
-
-#team {
-    background-color: white;
 }
 
 .carousel-indicators li {
@@ -148,63 +92,88 @@ nav {
     border-radius: 50%
 }
 
-/*NEW CSS */
 .main-logo{
-  padding: 50px 0;
-  width: 90%;
-}
-
-
-#nav {
-  display: none;
-}
-
-
-@media (min-width: 992px) {
-  .main-logo{
-    width: 50%;
-  }
-}
-
-
-h1{
-  font-family: 'AvenirBlack';
-}
-
-@media (min-width: 992px){
-.navbar-toggleable-md .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 50px 0;
+    width: 90%;
 }
 
 .social-icons i{
-  padding-right:5px;
-  margin-bottom: 10px;
+    padding-right:5px;
+    margin-bottom: 10px;
 }
 
 .sky-blue {
     color: #5689be;
 }
 
+@media (max-width: 575px) {
+    .container {
+       width: 100%;
+    }
+
+    .jumbotron {
+        padding-top: 66px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-logo{
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-toggleable-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+#landing {
+    background-image: url("../assets/img/landing-banner-2.png");
+    height: 100%;
+    z-index: 1000;
+}
+
+#about {
+    background-color: #C5DEFC;
+    color: black;
+    z-index: 0;
+}
+
+#tickets {
+    background-color: #606f7f;
+    color: white;
+}
+
+#speakers {
+    background-image: url("../assets/img/speakers-banner.png");
+}
+
+#sponsors {
+    background-color: white;
+}
+
+#who{
+    background-color: #ffcb73;
+    color: #9e742a;
+}
+
+#team {
+    background-color: white;
+}
+
+#nav {
+    display: none;
+}
+
 #btn-proceed {
-    transition: 0.4s;
+    transition: 0.25s;
     color: #C9DEF9 !important;
     padding-top:20px !important;
 }
 
 #btn-proceed:hover{
-  transition: 0.4s;
-  color: white !important;
+    transition: 0.9s;
+    color: white !important;
 }
-
-#juno {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-/* @media (min-width: 576px) {
-    .btn-proceed:hover {
-        color: red;
-        transition: 0.4s;
-    }
-} */
