@@ -135,6 +135,16 @@ nav {
     z-index: 1000;
 }
 
+#landing-box {
+    height: 70%;
+}
+
+@media (min-width: 576px) {
+    #landing-box {
+        height: 82%;
+    }
+}
+
 #about {
     background-color: #C5DEFC;
     color: black;
