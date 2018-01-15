@@ -129,6 +129,14 @@ nav {
     }
 }
 
+@media (max-width: 575px) {
+    .invisible-sm {
+        position: absolute !important;
+        top: -9999px !important;
+        left: -9999px !important;
+    }
+}
+
 #landing {
     background-image: url("../assets/img/landing-banner-2.png");
     height: 100%;
