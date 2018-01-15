@@ -169,7 +169,12 @@ nav {
 }
 
 #sponsors {
-    background-color: white;
+    background-color: #1b334b;
+}
+
+#sponsors-display {
+    background-image: url("../assets/img/sponsor-bg.png");
+    background-size: 100%;
 }
 
 #who{
